@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Input Form</title>
 </head>
 <body>
+    <!--use form tag ,in this various tags uses such as label, input, select, textarea and in input various attributes such as type and placeholders. -->
+    <!-- in types various modes such as text, email, number, password, tel, search, date, month, week, time, radio, checkbox, color, range, url, file, submit. -->
     <form>
         <label>First Name</label>
         <input type="text" placeholder="Enter Your name">
@@ -27,7 +29,51 @@
         <input type="month">
         <input type="week">
         <input type="time">
+        <input type="datetime-local">
         <br><br>
+        <label>Search</label>
+        <input type="search">
+        <br><br>
+        <label>telephone</label>
+        <input type="tel">
+        <br><br>
+        <input type="color">
+        <input type="range">
+        <label>Enter Url</label>
+        <input type="url" placeholders="https//www.google.com">
+        <br><br>
+        <label>Choose Cities</label>
+        <input type="checkbox" > Mumbai
+        <input type="checkbox" checked> Pune
+        <input type="checkbox" > Nashik
+        <br>
+        <br><br>
+        <label>Choose Gender</label>
+        <input type="radio" name="gender" checked> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+        <br>
+        <br><br>
+        <label>Select Fav Food</label>
+        <select>
+            <option>Maggie</option>
+            <option>Wadapav</option>
+            <option>Pav Bhaji</option>
+            <option>Manchurian</option>
+        </select>
+        <br>
+        <br><br>
+        <label>Upload Images or docs</label>
+        <input type="file" multiple>
+
+        <br>
+        <br><br>
+        <label>Feedback</label>
+        <textarea rows="5" cols="30"></textarea>
+        <br>
+        <br><br>
+        <input type="submit" value="Submit">
+
     </form>
 </body>
 </html>
