@@ -1,0 +1,43 @@
+.nav_style{
+    background-color: aqua;
+    text-align: left;
+    font-size: 50px;
+}
+
+.symbol{
+    font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.t_log{
+     font-size: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.foot_style{
+    background-color: aqua;
+    text-align: center;
+    color: red;
+    font-size: 25px;
+
+}
+
+.nav_space{
+    word-spacing: 1000px;
+}
+.w_space{
+    word-spacing: 20px;
+}
+
+.t_color{
+    color: red;
+}
+
+.t_design{
+    color: red;
+    text-shadow: 6px 6px 8px aqua;
+}
